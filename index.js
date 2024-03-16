@@ -17,4 +17,5 @@ function calculate(operator) {
             break;
     }
     document.getElementById('result').innerText = 'Result: ' + result;
+    return result;
 }
